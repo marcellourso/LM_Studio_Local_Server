@@ -17,7 +17,7 @@ Below is a generic template for a task configuration file. Replace placeholders 
         {
             "label": "Run Python Script",
             "type": "shell",
-            "command": "conda activate <your_environment_name> && python <your_script_name>.py",
+            "command": "conda activate lmst_env && python lmst_ext.py",
             "group": {
                 "kind": "build",
                 "isDefault": true
